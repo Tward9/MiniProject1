@@ -1,3 +1,51 @@
+#fixedHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    border-bottom: 10px solid tan;
+    background-color: antiquewhite;
+}
+
 h1{
-    color: red;
+    margin: 100px auto;
+    color: white;
+    width: 400px;
+    font-size: 50px;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    
+  }
+ul {
+    float: right;
+}
+.button {
+    color: white;
+    font-size: 40px;
+    background-color: burlywood;
+    border: none;
+    
+}
+
+.navbar {
+    position: relative;
+    right: 40px;
+    display: block;
+    text-align: center;
+
+  }
+
+.body {
+    background: rgb(233, 177, 126);
+}
+.box{
+    text-align: center;
+    border: 5px solid tan;
+    background-color: white;  
+    height: 200px;
+    width: 200px
 }

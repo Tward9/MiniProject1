@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,48 @@
     <title>Mini Project One</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <ul>
-        <li></li>
-        <li></li>
-        <li href="footer">Contact</li>
-    </ul>
-</header>
+<!-- Fixed Header -->
+<header id="fixedHeader">
+    <ul class="navbar">
+        <button class="button">
+            <li a href="#fixedHeader"></a>Home</a></li>
+        </button>
+        <button class="button">
+            <li a href="">News</a></li>
+        </button>
+        <button class="button">
+            <li a href="#ContactAnchor">Contact</li>
+        </button>
+        <button class="button">
+            <li a href="">About</a></li>
+        </button>
+    </ul> 
 
-<body>
+</header>
+<br>
+<!-- Body & Box Section -->
+<body class="body">
     <h1>Mini Project 1</h1>
+    <section>
+        <div class= "box">
+            This is a box with info
+        </div>
+    </section>
 </body>
 
+<!-- Contact & Footer Section -->
 <footer id="footer">
-
+    <h2><a id="ContactAnchor">Contact Form</a></h2>
+    <form action="contact.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" name="email" id="email" ><br>
+        <label for="content">Question/Comment?</label><br>
+        <input type="text" name="content" id="content"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset">
+    </form>
 </footer>
+
 </html>
